@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add and Delete operation</title>
+   
+</head>
+<body>
+
+    <script>
+
+
+        let abc=[] 
+
+        var abc1= new Array()
+
+
+        abc.push("Maojkumar")
+        abc.push(7469327826)
+        abc.push('A')
+        abc.push(true)
+
+
+
+        // for(pos=0;pos<abc.length;pos++)
+        // {
+        //     document.write(abc[pos]+"<br />");
+        // }
+
+        // abc.map( (d,i)=>
+        // {
+        //     alert(d+" "+i)
+        // }
+        // )
+
+            // alert(abc.length)
+
+            
+            // // abc.pop(1)
+            // alert(abc)
+            // abc.pop(0)
+
+            // document.write(abc)
+
+
+            // var temp=prompt("tell us postion to be delete")
+
+            // abc=abc.filter( (value,index)=>
+            // {
+
+            //     return value!==abc[temp]
+            // })
+
+            // abc.map((data)=>    
+            // {
+            //     alert(data)
+
+            // })
+
+             var temp=prompt("tell us postion to be delete")
+
+            abc=abc.filter( (value,index)=>
+            {
+
+                return value!==abc[temp]
+            })
+            abc.map((data)=>    
+            {
+                alert(data)
+
+            })    
+    </script> 
+</body>
+</html>
+
